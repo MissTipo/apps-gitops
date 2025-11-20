@@ -1,0 +1,20 @@
+# Kubernetes
+*.log
+*.tmp
+*.swp
+
+# Helm
+charts/
+tmp/
+*.tgz
+
+# Kustomize build output
+kustomize.out
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+

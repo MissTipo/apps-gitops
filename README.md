@@ -28,7 +28,23 @@ apps-gitops/
           prod/
       argo-application.yaml
     worker/
+      helm-chart/
+      kustomize/
+        base/
+        overlays/
+          dev/
+          staging/
+          prod/
+      argo-application.yaml
     frontend/
+      helm-chart/
+      kustomize/
+        base/
+        overlays/
+          dev/
+          staging/
+          prod/
+      argo-application.yaml
   rollouts/
     user-api/
   ci/
@@ -49,6 +65,6 @@ apps-gitops/
 ## Purpose
 
 This repo aligns with:
-- CAA (ArgoCD, RBAC, AppProjects, sync hooks, Rollouts)
+- CAPA (ArgoCD, RBAC, AppProjects, sync hooks, Rollouts)
 - CKA (workload admin, troubleshooting, deployment strategies)
 
